@@ -1,0 +1,153 @@
+   
+body{
+background-image: url("img_wip.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-size: 100%;
+}
+
+p{
+    color:white;
+    
+}
+nav { 
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(42, 33, 202);
+    padding: 10px;
+}
+nav ul {
+    list-style-type: armenian;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    display: inline;
+    margin-right: 46px;
+}
+nav ul li a {
+     text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    color:red;
+    text-decoration: darkblue;
+}
+h1{
+text-align:left;
+color:darkblue;
+text-anchor: middle;
+}
+h3{
+text-align:left;
+color:black
+}
+.menu{
+    width:400px;
+    float:left;
+    height:70px
+}
+ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+ul li a{
+   
+    text-transform: uppercase;
+   
+    font-weight: 600;
+    padding: 15px;
+    text-decoration: none;
+    color:green;
+    font-family:arial;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+}
+ul li a:hover{
+    background: lightcyan;
+    transition: 0.6s;
+    color:blue;
+}
+.search{
+    width:350px;
+    float:right;
+    margin-left: 470px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width:200px;
+    height:40px;
+    background:transparent;
+    border:2px solid rgb(254, 8, 65);
+    margin-top: 13px ;
+    color:red;
+    border-right: none;
+    font-size: 15px;
+    float:left;
+    padding:15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.btn{
+    width: 100px;
+    height:40px;
+    background: red;
+    border:2px solid red;
+    margin-top: 13px;
+    color:white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+}
+.btn:focus{
+    outline: none;
+}
+.srch.focus{
+    outline:none;
+}
+.content{
+    width:1200px;
+    height:auto;
+    margin:auto;
+    color:blue;
+    position:relative;
+
+}
+.form{
+    width: 250px;
+    height: 380;
+    background: linear-gradient(to top, rgba(blue, pink, green, 0.5)50%,rgba(pink, green, yellow, 0.5));
+    position:absolute;
+    top:-20px;
+    left:870px;
+}
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left:0;
+    top:0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/7){
+    .video{
+        width:100%;
+        height: 0;
+    }
+}

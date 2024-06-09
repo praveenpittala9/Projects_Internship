@@ -1,0 +1,15 @@
+.content{
+    width:1200px;
+    height:auto;
+    margin:auto;
+    color:blue;
+    position:relative;
+}
+.form{
+    width: 250px;
+    height: 380;
+    background: linear-gradient(to top, rgba(blue, pink, green, 0.5)50%,rgba(pink, green, yellow, 0.5));
+    position:absolute;
+    top:-20px;
+    left:870px;
+}
